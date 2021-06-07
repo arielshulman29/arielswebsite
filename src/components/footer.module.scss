@@ -1,0 +1,46 @@
+.footerStyle{
+    height: 10vh;
+    background: rgb(30, 31, 36);
+    color:rgb(165, 165, 165);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    position: static;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: flex-end;
+    
+}
+.icon{
+    font-size: 40px;
+    height:50px;
+    padding:5px;
+    background: rgb(13, 15, 20);
+    color: rgb(232, 232, 247);
+    display: flex,;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10%;
+}
+.icon:hover{
+    color: rgb(232, 232, 247);
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    top: -30px;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .icons {
+        width: 80%;
+    }
+  }
+
+
